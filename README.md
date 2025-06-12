@@ -16,7 +16,7 @@ This command initializes a new Discord bot project. It creates a new directory w
 **Usage:**
 
 ```bash
-python orch.py init <project-name>
+orch init <project-name>
 ```
 
 Replace `<project-name>` with the desired name for your bot project (e.g., `my-cool-bot`).
@@ -46,7 +46,7 @@ cd <project-name>
 Then run the command:
 
 ```bash
-python ../orch.py register
+orch register
 ```
 *(Assuming `orch.py` is in the parent directory, or adjust the path as needed based on your setup if you moved `orch.py`)*
 
@@ -112,8 +112,7 @@ Here's a typical workflow for using this tool:
     Use the `init` command from the root directory of this CLI tool to create a new bot project.
 
     ```bash
-    # Make sure you are in the root directory of the discord-bot-cli-helper
-    python orch.py init my-awesome-bot
+    orch init my-awesome-bot
     ```
 
 2.  **Configure your bot:**
@@ -126,8 +125,7 @@ Here's a typical workflow for using this tool:
     Once your bot token is set up in `.env`, run the `register` command from *within your bot project directory* to define and register your slash commands with Discord.
 
     ```bash
-    # Make sure you are inside your bot's project directory (e.g., my-awesome-bot)
-    python ../orch.py register
+    orch register
     ```
     *(Adjust path to `orch.py` if necessary)*
 
