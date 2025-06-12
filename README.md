@@ -1,4 +1,4 @@
-# Discord Bot CLI Helper
+# Orchestra CLI
 
 A command-line tool to help initialize and register commands for your Discord bots.
 
