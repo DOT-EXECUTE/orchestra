@@ -71,16 +71,16 @@ Follow these steps to set up and use the Discord Bot CLI Helper.
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository-url> # Replace <repository-url> with the actual URL of this repository
-    cd <repository-directory> # Replace <repository-directory> with the name of the cloned folder
+    git clone https://github.com/DOT-EXECUTE/orchestra.git
+    cd orchestra
     ```
 
-2.  **Install dependencies using Poetry:**
+2.  **Install dependencies using `pip`:**
 
-    This project uses Poetry to manage its dependencies.
+    This project uses Poetry to manage its dependencies, although is installed via pip.
 
     ```bash
-    poetry install
+    pip install .
     ```
     This will create a virtual environment and install the necessary packages like `click`, `PyYAML`, and `python-dotenv`.
 
